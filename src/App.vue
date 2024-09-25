@@ -1,12 +1,12 @@
 <script setup>
-import TodoList from './components/TodoList.vue';
+import TodoList from "./components/TodoList.vue";
+import { fetchPets } from "./fetch";
 
+fetchPets();
 </script>
 
 <template>
- <TodoList/>
+  <TodoList />
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
